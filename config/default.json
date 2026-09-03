@@ -1,0 +1,13 @@
+{
+  "agentName": "ZZY",
+  "mode": "preview",
+  "agenticAccountId": null,
+  "policy": {
+    "maxSnapshotAgeSeconds": 30,
+    "minConfidenceToPrepare": 80,
+    "maxOrderUsd": 50,
+    "maxTotalExposureUsd": 250,
+    "maxOpenOrders": 1,
+    "maxPriceMovePercent": 3
+  }
+}

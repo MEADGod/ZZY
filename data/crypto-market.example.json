@@ -1,0 +1,26 @@
+{
+  "source": "https://example.invalid/robinhood-crypto-fixture-v1",
+  "sample": true,
+  "observedAt": "2026-08-31T12:00:00.000Z",
+  "asset": {
+    "symbol": "SAMPLE_CRYPTO_ASSET",
+    "name": "Sample Crypto Asset"
+  },
+  "market": {
+    "priceUsd": 100,
+    "pricePreviewUsd": 99.5,
+    "priceMove5mPercent": 0.5,
+    "volume24hUsd": 1000000,
+    "volatilityScore": 65
+  },
+  "account": {
+    "buyingPowerUsd": 100,
+    "currentExposureUsd": 0,
+    "openOrders": 0
+  },
+  "signals": {
+    "momentum": "neutral",
+    "liquidity": "unknown"
+  },
+  "riskFlags": ["sample-data", "not-from-robinhood"]
+}
